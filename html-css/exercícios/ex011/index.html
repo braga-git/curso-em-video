@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+
+    <link rel="shortcut icon" href="Double-J-Design-Ravenna-3d-Image.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <h1>Imagem dinâmica</h1>    
+
+        <p>Abre o site nesse teu nokia tijolão aí, ou só diminue e aumenta essa trolha de aba.</p>
+
+            <picture>
+        
+                <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+                <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+  
+                    <img src="imagens/foto-g.png" alt="Imagem flexível">
+                
+            </picture>
+    
+    <h1>Reproduzindo Áudio</h1>
+
+        <p>Vamo dar uma de DJ nesse bagulho agora, achei que era DEV..</p>
+
+            <!-- <audio src="media/Distant-Love-Causmic.mp3" controls autoplay></audio> -->
+
+                <!-- MP3 WAV OGG -->
+
+            <audio preload="metadata" controls loop>
+
+                <source src="media/Distant-Love-Causmic.mp3" type="audio/mpeg">
+                <source src="media/Distant-Love-Causmic.ogg" type="audio/ogg"> 
+                <source src="media/Distant-Love-Causmic.wav" type="audio/wav">
+
+                    <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="media/Distant-Love-Causmic.mp3"> Clique aqui</a> para baixar o arquivo MP3</p>
+
+            </audio>
+            
+</body>
+
+</html>
