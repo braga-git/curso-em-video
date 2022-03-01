@@ -57,8 +57,9 @@ header {
         font-size: 1.2em;
         max-width: 500px;
         margin: auto;
-        margin-bottom: 20px;
         padding: 0px 10px 0px 10px;
+        padding-bottom: 30px;
+
     }
 
 nav {
