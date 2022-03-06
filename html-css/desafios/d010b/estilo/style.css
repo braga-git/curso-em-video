@@ -57,7 +57,8 @@ header {
         font-size: 1.2em;
         max-width: 500px;
         margin: auto;
-        padding: 0px 10px 0px 10px;
+        padding-right: 10px;
+        padding-left: 10px;
         padding-bottom: 30px;
 
     }
